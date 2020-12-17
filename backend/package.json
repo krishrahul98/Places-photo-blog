@@ -1,0 +1,41 @@
+{
+  "name": "your-place",
+  "version": "1.0.0",
+  "description": "This is backend for your place photos blog",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/krishrahul98/Places-photo-blog.git"
+  },
+  "keywords": [
+    "nodejs",
+    "expressjs",
+    "mongodb"
+  ],
+  "author": "Rahul Krishna",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/krishrahul98/Places-photo-blog/issues"
+  },
+  "homepage": "https://github.com/krishrahul98/Places-photo-blog#readme",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "express-validator": "^6.2.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.7.8",
+    "mongoose-unique-validator": "^2.0.3",
+    "multer": "^1.4.2",
+    "uuid": "^3.3.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
