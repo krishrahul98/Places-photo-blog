@@ -10,7 +10,10 @@ html {
 
 body {
   margin: 0;
-  background: #4d4d4d;
+  background-image: url("assets/bg-places.jpg");
+  background-clip: border-box;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .slide-in-left-enter {
