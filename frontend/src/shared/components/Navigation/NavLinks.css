@@ -15,18 +15,21 @@
 }
 
 .nav-links a {
-  border: 1px solid transparent;
-  color: #292929;
+  color: teal !important;
   text-decoration: none;
-  padding: 0.5rem;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  box-sizing: border-box;
+  font-weight: 600;
+  display: block;
 }
 
 .nav-links a:hover,
 .nav-links a:active,
 .nav-links a.active {
-  background: #ffffff;
-  border-color: #292929;
-  color: #292929;
+  background: teal;
+  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.5);
+  color: white !important;
 }
 
 .nav-links button {
